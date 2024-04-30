@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+                <style>
+                    @media (prefers-color-scheme: light) {
+                        body {
+                            background-color: #ffffff;
+                            color: #333333;
+                        }
+                    }
+                    @media (prefers-color-scheme: dark) {
+                        body {
+                            background-color: #333333;
+                            color: #ffffff;
+                        }
+                    }
+                    .container {
+                        width: 80%;
+                        margin: 0 auto;
+                        padding: 20px;
+                    }
+                    .header {
+                        text-align: center;
+                        padding: 10px;
+                        background-color: #6187EC;
+                        color: #ffffff;
+                        border-radius: 100px;
+                    }
+                    .content {
+                        padding: 30px;
+                        text-align: center;
+                    }
+                    .footer {
+                        text-align: center;
+                        padding: 10px;
+                        background-color: #EC785F;
+                        color: #ffffff;
+                        border-radius: 100px;
+                    }
+                    .verification-code {
+                        color: #A5C75A;
+                    }
+                    
+                    .title{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    span, h1, p, h2{
+                        font-family: "Arial Rounded MT Bold";
+                    }
+                    
+                    .title span{
+                        font-size: 60px;
+                        text-align: center;
+                    }
+                    
+                    .title span:nth-child(10n + 1) {
+                      color: #6187EC;
+                    }
+                    .title span:nth-child(10n + 2) {
+                      color: #A38ABD;
+                    }
+                    .title span:nth-child(10n + 3) {
+                      color: #EC785F;
+                    }
+                    .title span:nth-child(10n + 4) {
+                      color: #F2AB46;
+                    }
+                    .title span:nth-child(10n + 5) {
+                      color: #A5C75A;
+                    }
+                    .title span:nth-child(10n + 6) {
+                      color: #78B89C;
+                    }
+                    
+                    p{
+                        font-size: 20px;
+                    }
+
+                    
+                </style>
+        </head>
+        <body>
+            <div class="title">
+                <span>T</span>
+                <span>I</span>
+                <span>M</span>
+                <span>E</span>
+                <span>E</span>
+                <span>N</span>
+            </div>
+            <div class="container">
+                <div class="header">
+                    <h1>Verificación de email</h1>
+                </div>
+                <div class="content">
+                    <p>Porque solicitaste un código para verificar el email.</p>
+                    <p>Tu código es:</p>
+                    <h2 class="verification-code"><strong>&</strong></h2>
+                </div>
+                <div class="footer">
+                    <h2>Ingresa el código en la aplicación.</h2>
+                </div>
+            </div>
+        </body>
+    </html>

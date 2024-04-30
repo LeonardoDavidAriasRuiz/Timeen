@@ -1,0 +1,42 @@
+{
+  "originHash" : "ce7bdc8116385f1acf313594e46633e01c3cb7dbe7302828b81b31637a25d65d",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "3dc6a42c7727c49bf26508e29b0a0b35f9c7e1ad",
+        "version" : "5.8.1"
+      }
+    },
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "revision" : "3bd43e12d6fb54654366a61f7cfaca787318b8ce",
+        "version" : "4.4.1"
+      }
+    },
+    {
+      "identity" : "mailcore2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MailCore/mailcore2",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7417b2e8dd7e2c028aadb72056e4d1428c0627c4"
+      }
+    },
+    {
+      "identity" : "spline-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/splinetool/spline-ios",
+      "state" : {
+        "branch" : "main",
+        "revision" : "97bd0ddfa9e97b4aa2c610235629198996927471"
+      }
+    }
+  ],
+  "version" : 3
+}
