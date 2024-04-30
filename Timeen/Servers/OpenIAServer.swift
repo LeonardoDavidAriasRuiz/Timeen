@@ -10,7 +10,7 @@ import Alamofire
 
 struct OpenIAServer {
     private let baseUrl = "https://api.openai.com/v1/chat/completions"
-    private let openAIAPIKey = "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"
+    private let openAIAPIKey = ""
     
     func sendMessage(body: OpenAICompletionsBody) async -> Result<ChatCompletion, AFError> {
         let headers: HTTPHeaders = ["Authorization": "Bearer \(openAIAPIKey)"]
